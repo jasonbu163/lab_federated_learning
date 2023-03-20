@@ -1,0 +1,7 @@
+pysyft-fl3:
+
+1614  conda create -n pysyft-fl3 python=3.6.5
+ 1615  source activate pysyft-fl3
+ 1616  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn torch==1.4.0 torchvision==0.5.0
+ 1617  pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn syft==0.2.4
+ 1618  pip install scikit-learn
